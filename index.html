@@ -3,14 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="assets/styles/style.css">
+     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 
-    <link rel="stylesheet" href="assetsstyle.css">
     <title>Calculador Responsiva</title>
 </head>
 <body>
-    <header>
-        <h1>Calculadora Responsiva</h1>
-    </header>
+    <main id="container">
+        <section id="img">
+            <img src="assets/images/backImage.svg">
+        </section>
+
+        <section id="calculator">
+            <form id="form">
+                <h1 id="title">
+                    calculadora - imc
+                </h1>
+            <div class="input-box">
+                <label for="weight">
+                    Peso em Kg
+                </label>
+                <div class="input-field">
+                    <i class="fa-solid fa-weight-hanging"></i>
+                    <input type="number" id="weight" required>
+                    <span>
+                        Kg
+                    </span>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <label for="height">
+                    Altura em metros
+                </label>
+                <div class="input-field">
+                    <i class="fa-solid fa-up-long"></i>
+                    <input type="number" id="height" required>
+                    <span>
+                        M
+                    </span>
+                </div>  
+            </div>
+
+            <button id="calculate">
+                    Calcular
+                </button>
+            </form>
+
+            <div id="infos" class="hidden">
+                <div id="result">
+                    <div id="bmi">
+                        <span id="value"></span>
+                        <span>Seu IMC:</span>
+                    </div>
+                    <div id="description">
+                        <span></span>
+                    </div>
+                </div>
+                <div id="more_info">
+                    <a href="https://mundoeducacao.uol.com.br/saude-bem-estar/imc.htm">
+                        Mais informações sobre o IMC
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
       
 
 
