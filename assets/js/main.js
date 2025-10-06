@@ -13,7 +13,7 @@ form.addEventListener('submit', (event) => {
     
 
     
-    // Cálculo do imc
+    // Cálculo do imc com o toFixed(2) para mostrar só duas casas depois da virgula
     const bmi = (weight / (height * 2)).toFixed(2)
 
     // Remove a classe hidden dos resultados
@@ -39,7 +39,10 @@ form.addEventListener('submit', (event) => {
         description = `Seu peso atualmente é: ${weight}, você está com obesidade mórbida!`
     }
     
+    // Adicionando o bmi ao value e trocando o '.' pela ','
     value.textContent = bmi.replace(".", ",")
+
+    // Pegando a descrição e adicionando um textContent = description
     document.getElementById('description').textContent = description
     
 })
