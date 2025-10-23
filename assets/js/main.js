@@ -14,7 +14,7 @@ form.addEventListener('submit', (event) => {
 
     
     // Cálculo do imc com o toFixed(2) para mostrar só duas casas depois da virgula
-    const bmi = (weight / (height * 2)).toFixed(2)
+    const bmi = (weight / ((height / 100) ** 2)).toFixed(2)
 
     // Remove a classe hidden dos resultados
     document.getElementById('infos').classList.remove('hidden')
@@ -43,8 +43,7 @@ form.addEventListener('submit', (event) => {
     value.textContent = bmi.replace(".", ",")
 
     // Pegando a descrição e adicionando um textContent = description
-    document.getElementById('description').textContent = description
-    
+    document.querySelector('#description span').textContent = description
 })
 
 
