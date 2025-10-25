@@ -1,6 +1,6 @@
 # 🧮 Calculadora de IMC
 
-<a href="https://andrewsouza-dev.github.io/Responsive-BMI-Calculator/" target="_blank">
+<a href="https://andrewsouza-dev.github.io/Responsive-BMI-Calculator/" target="_blank" rel="noopener noreferrer">
   <img src="https://github.com/andrewsouza-dev/Responsive-BMI-Calculator/blob/main/public/media/preview.png?raw=true" alt="Preview do Projeto" />
 </a>
 
