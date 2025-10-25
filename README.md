@@ -1,9 +1,6 @@
 # 🧮 Calculadora de IMC
 
-<a href="https://andrewsouza-dev.github.io/Responsive-BMI-Calculator/" target="_blank" rel="noopener noreferrer">
-  <img src="https://github.com/andrewsouza-dev/Responsive-BMI-Calculator/blob/main/public/media/preview.png?raw=true" alt="Preview do Projeto" />
-</a>
-
+[![Preview do Projeto](https://github.com/andrewsouza-dev/Responsive-BMI-Calculator/blob/main/public/media/preview.png?raw=true)](https://andrewsouza-dev.github.io/Responsive-BMI-Calculator/)
 
 A **Calculadora de IMC (Índice de Massa Corporal)** é uma aplicação web moderna, responsiva e intuitiva, desenvolvida com **HTML**, **CSS** e **JavaScript**.  
 Ela permite ao usuário calcular rapidamente seu IMC e descobrir sua classificação (abaixo do peso, normal, sobrepeso ou obesidade).
